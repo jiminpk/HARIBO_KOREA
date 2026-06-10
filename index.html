@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARIBO_KOREA</title>
+
+  <link rel="icon" href="img/main_page/favicon.png" type="image/png">
+
+  <link rel="shortcut icon" href="./img/main_page/파비콘.png" type="파비콘">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="inner">
+        <h1 class="logo"><a href="#"><img src="img/main_page/logo_haribo.png" alt="HARIBO"></a></h1>
+        
+        <nav class="gnb">
+            <ul>
+              <li><a href="#">BRAND</a></li>
+              <li><a href="#">PRODUCT</a></li>
+              <li><a href="#">PLAY HARIBO</a></li>
+              <li><a href="#">STORE</a></li>
+              <li><a href="#">COSTOMER</a></li> 
+            </ul>
+        </nav>
+        
+        <div class="util-menu">
+            <a href="#">로그인</a>
+            <a href="#"><img src="img/main_page/icon_cart.svg" alt="장바구니"></a> 
+        </div>
+
+        <!-- 햄버거 버튼 (950px 이하에서만 노출) -->
+        <button class="hamburger" aria-label="메뉴 열기" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+    </div>
+  </header>
+
+  <!-- 모바일 풀스크린 내비게이션 오버레이 -->
+  <div class="mobile-nav-overlay" aria-hidden="true">
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="#">BRAND</a></li>
+        <li><a href="#">PRODUCT</a></li>
+        <li><a href="#">PLAY HARIBO</a></li>
+        <li><a href="#">STORE</a></li>
+        <li><a href="#">COSTOMER</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main class="swiper main-visual">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <picture>
+          <!-- 768px 이하: 세로형 모바일 이미지 -->
+          <source media="(max-width: 768px)" srcset="img/main_page/Main_mobile1.jpg">
+          <!-- 기본: 데스크탑 가로형 이미지 -->
+          <img src="img/main_page/Main_img.jpg" alt="Slide1">
+        </picture>
+      </div>
+      <div class="swiper-slide">
+        <picture>
+          <source media="(max-width: 768px)" srcset="img/main_page/Main_mobile2.jpg">
+          <img src="img/main_page/Main_img2.jpg" alt="Slide2">
+        </picture>
+      </div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </main>
+
+  <section class="swiper section-content">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="img-box">
+          <img src="img/main_page/section1_left_img1.jpg" alt="하리보 성수 팝업스토어 이미지">
+        </div><!--.img-box-->
+
+        <div class="txt-box">
+          <img src="img/main_page/section1_right_bg.png" alt="" class="txt-box-bg">
+          <span class="section1">골드베렌과 함께하는 달콤한 젤리 파티!</span>
+          <h2>하리보 성수 팝업스토어 OPEN</h2>
+          <p class="desc-a">
+          일상에 달콤한 즐거움을 더해줄 하리보의 특별한 팝업스토어가 성수에 찾아왔습니다.오감을 사로잡는 다채로운 전시와 화려한 조형물들이 가득해, 발길이 닿는 공간 곳곳에서즐거운 인생 포토샷을 남기실 수 있습니다.
+          </p>
+          <p class="desc-b">성수 팝업에서 선보이는 귀여운 한정판 굿즈와 다양한 상품들을 혜택으로 만나보세요.추억을 기록할 수 있는 '하리보 네컷' 사진 부스 등 다채로운 즐길 거리가 준비되어 있습니다.</p>
+          <a href="#" class="btn-more">더 알아보기</a>
+        </div><!--.txt-box-->
+      </div><!--.swiper-slide-->
+
+      <div class="swiper-slide">
+        <div class="img-box">
+          <img src="img/main_page/seaction1_left_img2.jpg" alt="하리보 성수 팝업스토어 이미지">
+        </div><!--.img-box-->
+
+        <div class="txt-box">
+          <img src="img/main_page/section1_right_bg.png" alt="" class="txt-box-bg">
+          <span class="section1">골드베렌의 달콤한 집에 방문해 보세요!</span>
+          <h2>국내 첫 하리보 스토어 OPEN</h2>
+          <p class="desc-a">
+            단기 팝업 행사로만 만나보던 하리보의 다채로운 매력을 언제든 경험할 수 있는 국내 첫 오프라인 공식 스토어가 드디어 문을 엽니다.
+          </p>
+          <p class="desc-b">하리보 특유의 화사한 컬러감과 통통 튀는 감성으로 꾸며진 이번 매장에서는, 그동안국내에서 구하기 어려웠던 글로벌 인기 젤리 라인업을 한자리에서 선보입니다.</p>
+          <a href="#" class="btn-more">더 알아보기</a>
+        </div><!--.txt-box-->
+      </div><!--.swiper-slide-->
+
+    </div><!--.swiper-wrapper-->
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </section>
+
+  <section class="section-card">
+    <div class="dark"></div>
+    <div class="txt-box">
+      <span class="section2">투표하고, 공유하고, 혜택까지 한 번에</span>
+      <h2>하리보 커뮤니티</h2>
+      <p class="desc-a">
+        가장 좋아하는 젤리에 투표하고, 숨겨둔 나만의 꿀조합 레시피를 공유해 보세요. 커뮤니티 활동에 참여해 주신 분들 중, 추첨을 통해 달콤한 하리보 굿즈 세트를 선물로 드립니다.
+      </p>
+      <a href="#" class="btn-more">레시피 공유하기</a>
+    </div><!--.txt-box-->
+    <ul class="card-container">
+      <li class="card-item">
+        <a href="#링크">
+          <div class="img-box"><img src="img/main_page/section2_content_img1.jpg" alt="나의 최애 하리보 맛은? 지금 바로 투표하고 내 최애를 1등으로 만드세요! 투표하러가기"></div>
+        </a>
+      </li>
+
+      <li class="card-item">
+        <a href="#링크">
+          <div class="img-box"><img src="img/main_page/section2_content_img2.jpg" alt="엉뚱하고 맛있는 하리보 레시피 실험실 실험실 가기"></div>
+        </a>
+      </li>
+
+      <li class="card-item">
+        <a href="#링크">
+          <div class="img-box"><img src="img/main_page/section2_content_img3.jpg" alt="나만의 레시피를 직접 공유하고 추첨을 통해 경품을 받아보세요! 레시피 공유하기"></div>
+        </a>
+      </li>
+    </ul>
+
+    <label class="toggle-switch">
+      <input type="checkbox">
+      <span class="slider"></span>
+    </label>
+  </section>
+
+  <section class="swiper section-goods">
+    <div class="swiper-wrapper">
+    
+      <!-- 배너 1 (파란색) : 기존 통이미지 방식 유지 -->
+      <div class="swiper-slide banner-blue">
+        <img src="img/main_page/section3_banner1.jpg" alt="굿즈 배너1">
+        <div class="txt1">
+          <h2>다양한 굿즈가 쏟아져요 !</h2>
+          <span>지금 바로 하리보 정품 굿즈를 온라인에서 만나보세요.</span>
+          <a href="#" class="btn-more">온라인 스토어 바로가기</a>
+        </div>
+      </div>
+
+      <!-- 배너 2 (빨간색 제니 콜라보) : 에셋 분리 및 조립 방식 적용 -->
+      <div class="swiper-slide banner-red">
+        <div class="banner-inner">
+          
+          <!-- 1. 왼쪽: 젤리 패키지 -->
+          <div class="item-left">
+            <img src="img/main_page/section3_banner2_jelly.png" alt="하리보 루비 하트 젤리">
+          </div>
+
+          <!-- 2. 중앙: 로고 & 텍스트 -->
+          <div class="item-center">
+            <img src="img/main_page/section3_banner2_jennie.png" alt="HARIBO x Jennie" class="collab-logo">
+            <div class="txt-box">
+              <h2>하리보 먹고 제니 콜라보 굿즈 받자&nbsp;!</h2>
+              <p>지금 하리보 젤리를 구매하시면, 추첨을 통해 한정판 하리보 x 제니 에디션 굿즈와 포토카드를 드립니다.</p>
+              <a href="#" class="btn-more">더 알아보기</a>
+            </div>
+          </div>
+
+          <!-- 3. 오른쪽: 굿즈 & 포토카드 -->
+          <div class="item-right">
+            <img src="img/main_page/section3_banner2_goods.png" alt="제니 콜라보 의류 및 굿즈" class="goods-img">
+            <img src="img/main_page/section3_banner_jennie_Photo.png" alt="제니 포토카드" class="photo-img">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Swiper 네비게이션 버튼 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </section>
+
+  <section class="section-lineup">
+    <div class="lineup-inner">
+      
+      <h2 class="sec-title">LINE UP</h2>
+      
+      <div class="swiper lineup-swiper">
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide lineup-card">
+            <div class="img-box">
+              <img src="img/main_page/section4_product1.png" alt="Goldbaren">
+            </div>
+            <div class="txt-box">
+              <h3>Goldbären</h3>
+              <p>100g당 338kcal</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide lineup-card">
+            <div class="img-box">
+              <img src="img/main_page/section4_product2.png" alt="Starmix">
+            </div>
+            <div class="txt-box">
+              <h3>Starmix</h3>
+              <p>100g당 337kcal</p>
+            </div>
+          </div>
+          
+          <div class="swiper-slide lineup-card">
+            <div class="img-box">
+              <img src="img/main_page/section4_product3.png" alt="Happy-Cola">
+            </div>
+            <div class="txt-box">
+              <h3>Happy Cola</h3>
+              <p>100g당 338kcal</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide lineup-card">
+            <div class="img-box">
+              <img src="img/main_page/section4_product4.png" alt="Worms">
+            </div>
+            <div class="txt-box">
+              <h3>Worms</h3>
+              <p>100g당 337kcal</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide lineup-card">
+            <div class="img-box">
+              <img src="img/main_page/section4_product5.png" alt="Worms">
+            </div>
+            <div class="txt-box">
+              <h3>Happy Grapes</h3>
+              <p>100g당 335kcal</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide lineup-card">
+            <div class="img-box">
+              <img src="img/main_page/section4_product6.png" alt="Worms">
+            </div>
+            <div class="txt-box">
+              <h3>Happy Cola Zourr</h3>
+              <p>100g당 340kcal</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide lineup-card">
+            <div class="img-box">
+              <img src="img/main_page/section4_product7.png" alt="Worms">
+            </div>
+            <div class="txt-box">
+              <h3>Worms Zourr</h3>
+              <p>100g당 361kcal</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide lineup-card">
+            <div class="img-box">
+              <img src="img/main_page/section4_product8.png" alt="Worms">
+            </div>
+            <div class="txt-box">
+              <h3>Fruity Bussi</h3>
+              <p>100g당 331kcal</p>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="swiper-scrollbar"></div>
+      </div>
+      
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <a href="#" class="link-info">영양정보 / 원재료 알아보러 가기 &rarr;</a>
+
+    </div>
+  </section>
+  
+  <section class="section-about-us">
+    <div class="about-heading">
+      <h2>ABOUT US</h2>
+    </div>
+    
+    <div class="about-absolute-wrap">
+      <div class="swiper about-swiper">
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide">
+            <div class="about-card-body">
+              <div class="about-txt-wrap">
+                <span class="about-sub">HARIBO HISTORY</span>
+                <h2>하리보의 시작</h3>
+                <p class="about-paragraph">
+                  1920년 독일 본(Bonn)의 작은 주방, 창립자 한스 리겔(Hans Riegel)의 손끝에서 달콤한 혁명이 시작되었습니다. 설탕 한 포대와 대리석 판 하나로 출발했던 작은 공방은 100년이 넘는 시간 동안 전 세계인에게 행복을 전하는 글로벌 브랜드로 성장했습니다.
+                  세기를 뛰어넘어 사랑받는 하리보의 특별한 여정을 만나보세요.
+                </p>
+                <a href="#" class="btn-more">역사 알아보기</a>
+              </div>
+              <div class="about-img-wrap">
+                <img src="img/main_page/section5_history_img.jpg" alt="하리보 역사">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="about-card-body">
+              <div class="about-txt-wrap">
+                <span class="about-sub">HARIBO PROCESS</span>
+                <h2>하리보 퀄리티</h3>
+                <p class="about-paragraph">
+                  100년 넘게 사랑받는 쫀득한 젤리는 엄격한 품질 관리에서 시작됩니다. 최첨단 기술이 적용된 생산 과정과 안전한 원료로 만들어지는 하리보의 과정을 공개합니다.
+                </p>
+                <a href="#" class="btn-more">품질 알아보기</a>
+              </div>
+              <div class="about-img-wrap">
+                <img src="img/main_page/section5_production_img.jpg" alt="하리보 공정">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="about-card-body">
+              <div class="about-txt-wrap">
+                <span class="about-sub">HARIBO VISION</span>
+                <h2>하리보의 미래</h3>
+                <p class="about-paragraph">
+                  모두가 함께 즐길 수 있는 달콤함을 위해 하리보는 멈추지 않고 연구합니다. 앞으로도 계속될 하리보의 새로운 도전과 비전을 확인해 보세요.
+                </p>
+                <a href="#" class="btn-more">비전 알아보기</a>
+              </div>
+              <div class="about-img-wrap">
+                <img src="img/main_page/section5_quality_img.jpg" alt="하리보 비전">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- 불릿: swiper 바깥, 카드 아래에 독립 배치 -->
+    <div class="about-pagination-wrap">
+      <div class="about-pagination swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="section-support">
+    <div class="support-inner">
+      
+      <div class="support-card">
+        <div class="support-txt-box">
+          <h3 class="support-title">FAQ</h3>
+          <p class="support-body">
+            자주 묻는 질문 확인하러 가기
+          </p>
+        </div>
+        <a href="#" class="support-link">보러가기</a>
+      </div>
+
+      <div class="support-card">
+        <div class="support-txt-box">
+          <h3 class="support-title">1:1 문의</h3>
+          <p class="support-body">
+            적합한 질문을 FAQ에서 못찾으셨나요? 질문이 있으시다면 문의 주세요.
+          </p>
+        </div>
+        <a href="#" class="support-link">문의하기</a>
+      </div>
+
+    </div>
+  </section>
+  
+  <footer class="footer-wrap">
+    <div class="footer-inner">
+      
+      <div class="footer-top">
+        <!-- 왼쪽: 뉴스레터 -->
+        <div class="footer-col footer-newsletter">
+          <!-- 왼쪽: 텍스트 + 인풋 -->
+          <div class="footer-newsletter-body">
+            <h4 class="footer-title">STAY IN THE LOOP!</h4>
+            <p class="footer-desc">Subscribe to our newsletter<br>for sweet updates.</p>
+            <div class="subscribe-box">
+              <input type="email" placeholder="Enter your email" class="subscribe-input">
+              <button type="submit" class="subscribe-btn">❯</button>
+            </div>
+          </div>
+          <!-- 오른쪽: 봉투 아이콘 -->
+          <div class="footer-newsletter-icon">
+            <img src="img/main_page/footer_mail.png" alt="메일" class="icon-mail">
+          </div>
+        </div>
+
+        <!-- 중앙: 퀵 링크 -->
+        <div class="footer-col footer-links">
+          <h4 class="footer-title">QUICK LINKS</h4>
+          <div class="link-columns">
+            <ul class="link-list">
+              <li><a href="#">자주 묻는 질문(FAQ)</a></li>
+              <li><a href="#">고객지원</a></li>
+              <li><a href="#">기업책임</a></li>
+              <li><a href="#">Whistleblowing System</a></li>
+            </ul>
+            <ul class="link-list">
+              <li><a href="#">법적고지</a></li>
+              <li><a href="#">접근성 선언</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">윤리강령</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 오른쪽: SNS 및 포인트 그래픽 -->
+        <div class="footer-col footer-social">
+          <h4 class="footer-title">FOLLOW US</h4>
+          <div class="social-icons">
+            <!-- SNS 아이콘 이미지 삽입 -->
+            <a href="#"><img src="img/main_page/logo_insta.svg" alt="Instagram"></a>
+            <a href="#"><img src="img/main_page/logo_facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="img/main_page/logo_youtube.svg" alt="YouTube"></a>
+          </div>
+          
+          <!-- 하리보 로켓 & 메모지 앱솔루트 영역 -->
+          <div class="footer-graphics">
+            <img src="img/main_page/footer_rocket_bear.png" alt="하리보 로켓" class="graphic-rocket">
+          </div>
+        </div>
+      </div>
+
+      <!-- 하단: 로고 및 방침 -->
+      <div class="footer-bottom">
+        <h1 class="footer-logo">
+          <a href="#"><img src="img/main_page/logo_haribo.png" alt="HARIBO"></a>
+        </h1>
+        <div class="footer-policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <button id="goTopBtn" class="go-top-btn" aria-label="위로 가기">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 19V5M5 12l7-7 7 7"/>
+  </svg>
+</button>
+</body>
+</html>
